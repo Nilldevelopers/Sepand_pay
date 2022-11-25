@@ -8709,7 +8709,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .slider-header {
   position: relative;
-  height: 40px;
+  height: 42px;
   overflow: hidden;
   z-index: 3;
 }
@@ -8749,7 +8749,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .slider-header.slider-header-top h1 {
   position: relative;
-  top: -4px;
+  top: 0;
 }
 
 .slider-header.slider-header-bottom {
