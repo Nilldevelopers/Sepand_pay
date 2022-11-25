@@ -11669,7 +11669,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   font-family: serif;
   color: #fff;
   font-style: italic;
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px 10px 0;
   border-right: 1px solid #cacaca;
 }
 
