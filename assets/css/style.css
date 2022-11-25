@@ -1381,7 +1381,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #386EFA;
   font-weight: 700;
   line-height: 1.2;
   font-family: "iransans", sans-serif;
@@ -1723,6 +1723,7 @@ body > * {
   text-transform: uppercase;
   position: relative;
   padding-right: 80px;
+  color:#386EFA;
 }
 
 .one-title .title-sub-container .title-sub:before, .one-title .title-sub-container .title-sub:after {
@@ -2373,8 +2374,8 @@ body > * {
   z-index: 2;
   font-size: 25px;
   text-transform: uppercase;
-  letter-spacing: 8px;
-  color: #fff;
+  letter-spacing: 1px;
+  color: #fcbf49;
 }
 
 .preloader .preloader-block .percent {
@@ -2384,7 +2385,7 @@ body > * {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   font-weight: 700;
-  letter-spacing: 8px;
+  letter-spacing: 1px;
   font-size: 24vw;
   color: rgba(54, 54, 53, 0.1);
   z-index: 1;
@@ -2400,7 +2401,7 @@ body > * {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 1px;
   color: #fff;
   -webkit-animation: blink-animation 2.2s linear infinite;
 }
@@ -2423,7 +2424,7 @@ body > * {
   bottom: auto;
   height: 100%;
   width: 0;
-  background: #fff;
+  background: #fcbf49;
 }
 
 @-webkit-keyframes blink-animation {
@@ -2803,9 +2804,10 @@ input[type="submit"]:hover::before {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
-  border: 1px solid rgba(112, 112, 112, 0.1);
+  border: 1px solid #386EFA;
   border-radius: 40px;
   padding-left: 25px;
+  background-color: #386EFA;
   -webkit-transition: background 0.2s linear;
   -o-transition: background 0.2s linear;
   transition: background 0.2s linear;
@@ -2847,10 +2849,10 @@ input[type="submit"]:hover::before {
   vertical-align: middle;
   white-space: normal;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 16px;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   -webkit-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
@@ -2877,7 +2879,7 @@ a:hover, a:active {
 .dsn-nav-bar.nav-bg > .header-top > .header-container, .dsn-nav-bar.nav-bg .site-header {
   padding-bottom: 15px;
   padding-top: 15px;
-   background-color: rgba(13, 13, 13, 0.7);
+  background-color: #1823403d;
   -webkit-backdrop-filter: blur(17px);
   backdrop-filter: blur(17px);
 }
@@ -3266,7 +3268,7 @@ body.hamburger-menu .header-top {
   position: relative;
   display: table;
   pointer-events: auto;
-  float: right;
+  float: left;
   z-index: 99999;
   top: 5px;
 }
@@ -3282,7 +3284,7 @@ body.hamburger-menu .header-top {
 .header-top .header-container .menu-icon {
   position: relative;
   z-index: 999;
-  float: left;
+  float: right;
   top: 14px;
   cursor: pointer;
   margin-left: 50px;
@@ -3312,7 +3314,7 @@ body.hamburger-menu .header-top {
 }
 
 .header-top .header-container .menu-icon:hover .icon-circle {
-  opacity: 0.2;
+  opacity: 0;
   visibility: visible;
 }
 
@@ -3456,7 +3458,7 @@ body.hamburger-menu .header-top {
   height: 2px;
   width: 22px;
   display: block;
-  background-color: #ffffff;
+  background-color: #386EFA;
   margin-bottom: 4px;
   -webkit-transition: background-color 0.5s ease, -webkit-transform 0.2s ease;
   transition: background-color 0.5s ease, -webkit-transform 0.2s ease;
@@ -4426,6 +4428,7 @@ body.nav-active .dsn-nav-bar .icon-m:nth-of-type(0) .menu-icon-close {
 }
 
 body.nav-active .dsn-nav-bar .icon-m:nth-of-type(1) .menu-icon-close {
+  color:#FA3838;
   -webkit-transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms;
   transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms;
   -o-transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms;
@@ -4703,7 +4706,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: transparent;
-  -webkit-text-stroke: 0.5px #fcbf49;
+  -webkit-text-stroke: 0.5px #386EFA;
   text-transform: uppercase;
   -webkit-transition: color 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   -o-transition: color 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -4761,7 +4764,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .contact-up:hover a .hiring {
-  color: #fcbf49;
+  color: #386EFA;
 }
 
 .v-light .contact-up:hover a .hiring {
@@ -6941,7 +6944,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .our-work .slick-dots li.slick-active button {
-  background-color: #fcbf49;
+  background-color: #FFFFFF;
   -webkit-transform: scaleX(1.5);
   -ms-transform: scaleX(1.5);
   transform: scaleX(1.5);
@@ -6958,7 +6961,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   color: transparent;
   border: 0;
   outline: none;
-  background: #fff;
+  background: #FA3838;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -8389,7 +8392,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .our-news .slick-slider .slick-dots li.slick-active button, .our-team .slick-slider .slick-dots li.slick-active button, [data-dsn-col="2"] .slick-slider .slick-dots li.slick-active button {
-  background-color: #fcbf49;
+  background-color: #FFFFFF;
   -webkit-transform: scaleX(1.5);
   -ms-transform: scaleX(1.5);
   transform: scaleX(1.5);
@@ -8406,7 +8409,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   color: transparent;
   border: 0;
   outline: none;
-  background: #fff;
+  background: #FA3838;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -8438,7 +8441,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-effect-scroll:not(.dsn-mobile) #dsn-scrollbar .scrollbar-track .scrollbar-thumb, .sidebar-single .scrollbar-track .scrollbar-thumb, .dsn-work-scrollbar .scrollbar-track .scrollbar-thumb {
-  background: #424242;
+  background: #386EFA;
   width: 5px;
 }
 
@@ -9681,6 +9684,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   left: 50px;
   display: inline-block;
   height: 40px;
+  z-index:10;
 }
 
 @media only screen and (max-width: 575px) {
@@ -10102,6 +10106,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   font-weight: 600;
   letter-spacing: 2px;
   opacity: 0.8;
+  color:#386EFA;
 }
 
 .dsn-slider-content .slide-content .slide-content-inner .project-metas .cat span:after {
@@ -10120,7 +10125,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-slider-content .slide-content .slide-content-inner .link-custom a {
-  border: 1px solid rgba(112, 112, 112, 0.5);
+  border: 1px solid #386EFA;
 }
 
 .dsn-slider-content .slide-content.dsn-active {
@@ -12255,10 +12260,10 @@ footer a,
 footer p {
   color: rgba(194, 194, 194, 0.6);
   margin-bottom: 0;
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   line-height: 1.6;
   font-variant-numeric: proportional-nums;
   font-family: "iransans", sans-serif;
