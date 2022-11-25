@@ -12,6 +12,8 @@
 /* ----------------------------------------------------------------
 			[ All Css Plugins & Helper Classes File ]
 -----------------------------------------------------------------*/
+/* == magnific popup == */
+@import url("./custom.css");
 
 /* == bootstrap == */
 @import url("plugins/bootstrap-grid.min.css");
