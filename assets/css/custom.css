@@ -2,7 +2,7 @@
 
 /*------------------------------------- font-family -----------------------------------------------*/
 
-@font-face {
+/* @font-face {
     font-family: iransans;
     font-style: normal;
     font-weight: 700;
@@ -35,7 +35,6 @@
 }
 
 
-/*bgfgj*/
 
 @font-face {
     font-family: iransans;
@@ -43,12 +42,32 @@
     font-weight: 400;
     src: url('../fonts/iransans/iransansWeb(FaNum).eot');
     src: url('../fonts/iransans/iransansWeb(FaNum).eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum).woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum).woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum).ttf') format('truetype')
+}  */
+
+/* @font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/yekan/Yekan.eot");
+  src: url("../fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/yekan/Yekan.woff") format("woff"),
+    url("../fonts/yekan/Yekan.ttf") format("truetype");
+} */
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url("../fonts/kalameh/KalamehWeb-Regular.eot");
+  src: url("../fonts/kalameh/KalamehWeb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/kalameh/KalamehWeb-Regular.woof") format("woff"),
+    url("../fonts/kalameh/KalamehWeb-Regular.woff2") format("woff2");
 }
 
 .smoothScroll,
 html,
 body {
-    font-family: 'iransans', sans-serif;
+  font-family: "iransans", sans-serif;
 }
 
 h1,
@@ -62,8 +81,7 @@ a,
 div,
 span,
 input {
-    font-family: 'iransans', sans-serif;
+  font-family: "iransans", sans-serif;
 }
-
 
 /*------------------------------------- font-family -----------------------------------------------*/
