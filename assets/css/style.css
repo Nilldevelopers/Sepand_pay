@@ -2721,7 +2721,7 @@ input[type="submit"] {
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   line-height: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -9180,7 +9180,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   position: relative;
   font-size: 14px;
   line-height: 1.3em;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -9208,6 +9208,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   letter-spacing: 2px;
   font-size: 65px;
   font-weight: 700;
+  color:#fcbf49;
 }
 
 @media only screen and (max-width: 767px) {
