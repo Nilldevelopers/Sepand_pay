@@ -4865,9 +4865,9 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 30px;
   height: 100%;
   opacity: 1;
-  -webkit-transform: translateX(20%);
-  -ms-transform: translateX(20%);
-  transform: translateX(20%);
+  -webkit-transform: translateX(-250%) rotate(180deg);
+  -ms-transform: translateX(-250%) rotate(180deg);
+  transform: translateX(-250%) rotate(180deg);
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -4913,9 +4913,9 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .dsn-pagination .next .button-m:hover svg {
   opacity: 0;
-  -webkit-transform: translateX(20%) !important;
-  -ms-transform: translateX(20%) !important;
-  transform: translateX(20%) !important;
+  -webkit-transform: translateX(-260%) rotate(180deg) !important;
+  -ms-transform: translateX(-260%) rotate(180deg) !important;
+  transform: translateX(-260%) rotate(180deg) !important;
 }
 
 .dsn-pagination .next .button-m:hover span {
@@ -9183,7 +9183,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  right: -50px;
+  right: 50px;
   left: auto;
   width: 150px;
   top: 50%;
