@@ -3303,7 +3303,7 @@ body.hamburger-menu .header-top {
 }
 
 .header-top .header-container .logo img {
-  width: 80px;
+  width: 40px;
 }
 
 .header-top .header-container .menu-icon {
@@ -5911,7 +5911,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .brand-client .wapper-client .logo-box {
   position: relative;
-  background-color: #F7F7FF;
+  background-color: #090909;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
