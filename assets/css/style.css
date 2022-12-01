@@ -10908,7 +10908,8 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 
 .root-work .filterings .filtering-wrap .filtering button.active {
   font-weight: bold;
-  border-bottom: solid 2px #fff;
+  border-bottom: solid 2px #fcbf49;
+  color:#fcbf49;
 }
 
 .v-light .root-work .filterings .filtering-wrap .filtering button.active {
@@ -10983,7 +10984,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 
 .root-work .projects-list .item a .item-info {
   position: absolute;
-  right: 50%;
+  left: 50%;
   padding: 25px 15px 30px;
   width: 270px;
   text-align: center;
